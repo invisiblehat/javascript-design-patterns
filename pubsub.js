@@ -1,6 +1,5 @@
-//basic mediator/pubsub/event pattern
+//basic mediator/pubsub/event pattern - subscribe, publish, unsubscribe.
 // use: events.on('somethingChanged', someFunction)
-// events.off('somethingChanged', someOtherFunction)
 //  events.emit('somethingChanged', 'this changed')
 
 var events = {
